@@ -2,7 +2,8 @@
     padding: 50px 0;
 }
 .contact .title::after{
-    content: "let's talk";
+    /* content: "let's talk"; */
+    content: "get in touch";
 }
 .contact .contact-content{
     display: flex;
