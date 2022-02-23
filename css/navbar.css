@@ -1,0 +1,59 @@
+.wrapper{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+.navbar .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo a span{
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: white;
+    
+}
+.menu-items li{
+    list-style: none;
+    display: inline-block;
+}
+.menu-items li a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.menu-items li a:hover{
+    color: crimson;
+    font-weight: 500;
+}
+.navbar.sticky .menu-items li a:hover{
+    color: white;
+}
+.menu-btn{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}

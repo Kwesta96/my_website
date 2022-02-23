@@ -1,0 +1,81 @@
+.mywork{
+    padding: 50px 0;
+    color: white;
+    background: #111;
+    /* height: 20vh; */
+}
+.mywork .title::before{
+    background: white;
+}
+.mywork .title::after{
+    content: "projects";
+    background: #111;
+}
+/* .mywork .carousel{
+    overflow-y: none;
+    scroll-margin: 1;
+} */
+.mywork .carousel .projects{
+    /* // background: white;
+    // height: 60vh;
+    // scrollbar-width: none;
+    //padding: auto; */
+    color: white;
+    text-decoration: none;
+}
+.mywork .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-top: 2px;
+}
+.mywork .carousel .card:hover{
+    background-color: crimson;
+}
+.mywork .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.mywork .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.mywork .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.mywork .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.mywork .carousel .card:hover img{
+    border-color: white;
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot:hover{
+    background: crimson!important;
+}
